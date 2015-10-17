@@ -1,0 +1,54 @@
+Materials and methods 
+subjects 
+
+The resting state fMRI data presented here was collected from six hospitals in China which participated in the Brainnetome Project for Schizophrenia. The six hospitals are  Patients and controls are matched as much as possible for age, sex, handedness, and race distributions with each site. Peking University Sixth Hospital (PKUH6); Beijing Huilongguan Hospital (HLG); Xijing Hospital (XJ); Henan Mental Hospital (HM);  Renmin Hospital of Wuhan University (RWU); and Zhumadian Psychiatric Hospital (ZMD). Henan Mental Hospital provided two distinct MRI scanners: Siemens (HMS) and General Electric (HMG), for a total of eight scanning centers. The study at each center was approved by the local ethical review board. All the participants provided written informed consent.
+
+All patients had a diagnosis of schizophrenia confirmed by trained psychiatrists using the Structured Clinical Interview for DSM-IV-TR Axis I Disorders (SCID-I/P). (First et al., 2002b). Exclusion criteria were a current neurologic disorder, a history of serious medical illness, substance dependence, pregnancy, electroconvulsive therapy within the last six months, or a diagnosis of any other Axis I disorder. The Positive and Negative Syndrome Scale (PANSS)  (Kay et al., 1989) was used to assess positive, negative, and general psychopathology symptoms in the patients. The healthy controls, who had no current axis I psychiatric disorders, were recruited from the local community near each center through advertisements. None of the HCs had any personal history of psychotic illness and no family history of psychosis in their first, second, or third degree relatives. All the participants were Han Chinese in origin, right-handed, and had no contraindications to MRI scanning. After extensive quality checking of the brain imaging data, 662 patients and 613 HCs were included in the analysis.
+ 
+
+Data acquisition and preprocessing
+ 
+ 
+Two types of 3 T MRI scanners (four Siemens, three General Electric) were used at the participating centers. To ensure equivalent data acquisition protocol and high quality imaging data, the scanning parameters of the functional scans at each of the six centers were set up by an experienced researcher before data acquisition. An echo planar imaging sequence was used to obtain the
+functional images, the parameters were as follows: 30 axial slices, TR = 2000 ms, TE = 30 ms, matrix = 64 × 64, flip angle = 90°, FOV = 240*240 mm 2, slice thickness = 4 mm, gap = 0.4 mm. A total of 250 brain volumes were collected, resulting in a total scan time of 500 s.The MRI scan sequences and parameters for each center are listed in eTable 1. To be noticed, the time point number of the images from ZMD is 180 and is different from the 240 of the other sites. We did not exclude this site since we are eager to keep as much data and sites as possible, to support the validation of the multi-site analysis.   
+
+时间校正，头动校正，配准，降噪，滤波，空间平滑
+
+The iamges were preprocessed with a based in-house software: Brainnetome Toolkit which utilized Statistical Parametric Mapping SPM8 (http://www.fil.ion.ucl.ac.uk/spm). The pipeline includes the following steps: The first ten images were deleted for the signal equilibration. The remaining iamges were conducted for slice acquisition correction and head motion correction.  The fMRI data which had
+less than 3.0 mm of head motion and 3.0° of angular rotation were included.  Moreover, the mean frame-wise displacement (FD) was computed by averaging FDi from every time point for each subject. There were no differences for the mean FD between groups
+( t = 0.413, p = 0.682) (Table 1). Then the fMRI images were normalized to the standard Montreal Neurological Institute (MNI) template provided by SPM and resample to the 3-mm isotropic voxels. Artefacts due to changes in global, ventricle and white matter signals, residual motion were removed using voxel-wise regression. A temporal filter (0.01 Hz < f < 0.08 Hz) were used to reduce the low-frequency drift and physiological high frequency respiratory and cardiac noise.  Finally, the data was smoothed with an isotropic Gaussian kernel of 6 mm full-width at half-maximum. 
+
+Functional connectivity analysis
+
+Regions of interest (ROIs)
+
+fcMRI Analyses
+
+To perform the fcMRI analyses, time series from the resting-state scan were extracted by averaging the time series of all voxels in each ROI. The resulting time series of each ROI were then entered into the following connectivity analyses.
+The Pearson (full) correlation coefficient was used to estimate functional connectivity between each pair of time series. A Fisher Z transform  
+
+
+
+Statistical analysis
+
+Group differences in the basic demographics at each center were examined with two-tailed t-tests and chi-square tests using PASW Statistics 18.0.
+
+For every single site separately, the diagnose effect on each FC value was assessed using a two-sample t-test comparing images between SZ and NC from each site. A second level random effects meta analysis was used to pooling the single site statistics, in order to assess the replication of the effects from the entire dataset. The effect sizes were calculated using Hedge’s g, which provides an unbiased standardized mean difference that incorporates a correction for small sample sizes. Hedge’s g was calculated using each center’s t-statistic and the corresponding sample size. All significance thresholds were set to p < 0.001 FDR-corrected for multiple comparison. The meta-analysis was conducted in R with meta-for packages.
+
+We then performed association analysis for those fc connectivities that passed the significant test. We then examined the relationship between FC values of those that passed the significant test and demographic variables in patients.  Linear regression was then conducted to determine a possible association between those significantly FC connectivity and clinical scores including (PANSS positive , PANSS negative, PANSS general and PANSS total). These analyses are conducted both separately in each site and in the whole data. In whole data analysis, the site factor was included in the GLM model. An additional analyses were also performed with covariate of age and sex.
+
+
+Results
+
+Demographics and clinical data
+
+Sociodemographic and psychopathological data are presented by center in Table 1. No statistically significant differences in age and sex were noted between the schizophrenia patients and HCs at each center. The patients had significantly fewer years of education than the HCs in six out of eight centers.
+
+Group comparisons of FC connectivities at each center
+
+Mixed effect multicenter analysis
+
+Compared to the normal group, four FC conncevities was reduced in the patients: they are the connection between the left IFG/caudal lateral prefrontal gyrus and the left anterior insula, Left IFG/caudal lateral prefrontal gyrus and the Left inferior frontal gyrus pars opercularis, Right intraparietal sulcus and the Left inferior frontal gyrus pars opercularis Right intraparietal sulcus and the Right inferior frontal gyrus pars opercularis. No functional connectivity was detected with a enhancing effect in the patients group.  
+
+
+
