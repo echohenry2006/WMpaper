@@ -1,3 +1,10 @@
+Introduction
+
+Working memory is a temporal process to maintain and manipulate information over short periods of time. WM has been shown to be impaired in many neurological and psychiatric syndromes including Schizophrenia. It was thought to be tightly associated with cognitive deficits in Schizophrenia. WM itself is a complex process which has been multidimensionally related to the psychosis.
+Thus, a examination of the underlying neurological mechanism provided us with insight into the causes, progression and even treatment of schizophrenia. 
+ 
+
+
 Materials and methods 
 subjects 
 
@@ -48,7 +55,7 @@ Group comparisons of FC connectivities at each center
 
 Mixed effect multicenter analysis
 
-Compared to the normal group, four FC conncevities was reduced in the patients: they are the connection between the left IFG/caudal lateral prefrontal gyrus and the left anterior insula, Left IFG/caudal lateral prefrontal gyrus and the Left inferior frontal gyrus pars opercularis, Right intraparietal sulcus and the Left inferior frontal gyrus pars opercularis Right intraparietal sulcus and the Right inferior frontal gyrus pars opercularis. No functional connectivity was detected with a enhancing effect in the patients group.  
+Compared to the normal group, four FC conncevities was reduced in the patients: they are the connection between the left IFG/caudal lateral prefrontal gyrus and the left anterior insula, Left IFG/caudal lateral prefrontal gyrus and the Left inferior frontal gyrus pars opercularis, Right intraparietal sulcus and the Left inferior frontal gyrus pars opercularis, Right intraparietal sulcus and the Right inferior frontal gyrus pars opercularis. No functional connectivity was detected with a enhanced effect in the patients group.  
 
 
 
