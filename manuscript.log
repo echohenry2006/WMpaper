@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.13)  16 OCT 2015 11:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.7.13)  18 OCT 2015 15:25
 entering extended mode
 **manuscript.tex
 (D:\快盘\在线文档\ccm\WMpaper\manuscript.tex
@@ -420,52 +420,55 @@ LaTeX Font Info:    ... okay on input line 143.
 
 
 {C:/Users/thinkingfly/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2]
-LaTeX Font Info:    Try loading font information for U+msa on input line 225.
- ("d:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Try loading font information for U+msa on input line 198.
+
+("d:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 225.
+LaTeX Font Info:    Try loading font information for U+msb on input line 198.
 
 ("d:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [3]
+) [2]
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
+ [3]
 Missing character: There is no � in font cmr12!
 Missing character: There is no � in font cmr12!
 
-Overfull \hbox (139.51535pt too wide) in paragraph at lines 246--249
+Overfull \hbox (139.51535pt too wide) in paragraph at lines 220--223
 \OT1/cmr/m/n/12 netome Toolkit which uti-lized Sta-tis-ti-cal Para-met-ric Map-
 ping SPM8 (http://www.fil.ion.ucl.ac.uk/spm).
  []
 
-[4]
-No file manuscript.bbl.
-[5] [6] (D:\快盘\在线文档\ccm\WMpaper\manuscript.aux) ) 
+[4] (D:\快盘\在线文档\ccm\WMpaper\manuscript.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 7.
+
+) [5] (D:\快盘\在线文档\ccm\WMpaper\manuscript.aux) ) 
 Here is how much of TeX's memory you used:
- 5876 strings out of 493921
- 76591 string characters out of 3147264
+ 5880 strings out of 493921
+ 76701 string characters out of 3147264
  148383 words of memory out of 3000000
- 9055 multiletter control sequences out of 15000+200000
+ 9057 multiletter control sequences out of 15000+200000
  11001 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,9n,53p,1117b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
-<d:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr17.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-<d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (6 pages, 126683 bytes).
+ 34i,9n,53p,1117b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+<d:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r17.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><d
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on manuscript.pdf (5 pages, 125429 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
