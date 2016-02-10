@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.21)  28 OCT 2015 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.21)  9 NOV 2015 15:32
 entering extended mode
 **D:/Âø´Áõò/Âú®Á∫øÊñáÊ°£/ccm/WMpaper/manuscript.tex
 (D:/Âø´Áõò/Âú®Á∫øÊñáÊ°£/ccm/WMpaper/manuscript.tex
@@ -418,12 +418,12 @@ Missing character: There is no Å in font cmr12!
 Missing character: There is no Ô in font cmr12!
 Missing character: There is no ¨ in font cmr12!
 Missing character: There is no Ç in font cmr12!
- [2] [3]
+ [2] [3] [4]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ∞ in font cmr12!
- [4]
+ [5]
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ∞ in font cmr12!
 
@@ -432,34 +432,31 @@ Overfull \hbox (139.51535pt too wide) in paragraph at lines 224--227
 ping SPM8 (http://www.fil.ion.ucl.ac.uk/spm).
  []
 
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Å in font cmr12!
-[5]
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ç in font cmr12!
- [6] (manuscript.bbl
+[6]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [7] [8] [9] [10] (manuscript.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 7.
 
-) [7] (manuscript.aux) ) 
+) [11] (manuscript.aux) ) 
 Here is how much of TeX's memory you used:
  5824 strings out of 493636
  75112 string characters out of 3143737
- 153055 words of memory out of 3000000
+ 155053 words of memory out of 3000000
  9095 multiletter control sequences out of 15000+200000
  10380 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,5n,53p,2054b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-<d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><d
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (7 pages, 88225 bytes).
+ 34i,5n,53p,3301b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+<d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmbx12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><
+d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on manuscript.pdf (11 pages, 93819 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
