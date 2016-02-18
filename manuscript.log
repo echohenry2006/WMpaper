@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.21)  9 NOV 2015 15:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.21)  18 FEB 2016 15:10
 entering extended mode
-**D:/Âø´Áõò/Âú®Á∫øÊñáÊ°£/ccm/WMpaper/manuscript.tex
-(D:/Âø´Áõò/Âú®Á∫øÊñáÊ°£/ccm/WMpaper/manuscript.tex
+**manuscript.tex
+(manuscript.tex
 LaTeX2e <2015/10/01> patch level 1
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 ("d:\Program Files\MiKTeX 2.9\tex\latex\elsarticle\elsarticle.cls"
@@ -402,61 +402,139 @@ LaTeX Font Info:    ... okay on input line 143.
 
 
 {C:/Users/thinkingfly/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 198.
+LaTeX Font Info:    Try loading font information for U+msa on input line 199.
 
 ("d:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 198.
+LaTeX Font Info:    Try loading font information for U+msb on input line 199.
 
 ("d:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Å in font cmr12!
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Ç in font cmr12!
- [2] [3] [4]
+) [2]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [3] [4] [5]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ó in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ∞ in font cmr12!
- [5]
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+Missing character: There is no È in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ä in font cmr12!
+Missing character: There is no ® in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no È in font cmr12!
+Missing character: There is no Ö in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no á in font cmr12!
+Missing character: There is no Ü in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no È in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ç in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no ª in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no Á in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no ∫ in font cmr12!
+Missing character: There is no È in font cmr12!
+Missing character: There is no ó in font cmr12!
+Missing character: There is no ¥ in font cmr12!
+Missing character: There is no Â in font cmr12!
+Missing character: There is no π in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no Ê in font cmr12!
+Missing character: There is no ª in font cmr12!
+Missing character: There is no ë in font cmr12!
 Missing character: There is no ¬ in font cmr12!
 Missing character: There is no ∞ in font cmr12!
 
-Overfull \hbox (139.51535pt too wide) in paragraph at lines 224--227
+Overfull \hbox (139.51535pt too wide) in paragraph at lines 226--229
 \OT1/cmr/m/n/12 netome Toolkit which uti-lized Sta-tis-ti-cal Para-met-ric Map-
 ping SPM8 (http://www.fil.ion.ucl.ac.uk/spm).
  []
 
-[6]
+[6] [7]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [7] [8] [9] [10] (manuscript.bbl
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [8] [9] [10]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [11] [12] [13] [14] (manuscript.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 7.
 
-) [11] (manuscript.aux) ) 
+) [15] (manuscript.aux) ) 
 Here is how much of TeX's memory you used:
- 5824 strings out of 493636
- 75112 string characters out of 3143737
- 155053 words of memory out of 3000000
+ 5823 strings out of 493636
+ 75007 string characters out of 3143737
+ 154053 words of memory out of 3000000
  9095 multiletter control sequences out of 15000+200000
  10380 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 34i,5n,53p,3301b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,6n,53p,3303b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
 <d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 r12.pfb><d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><
 d:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on manuscript.pdf (11 pages, 93819 bytes).
+Output written on manuscript.pdf (15 pages, 101694 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
