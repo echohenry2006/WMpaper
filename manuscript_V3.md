@@ -1,207 +1,13 @@
-%% This is file `elsarticle-template-1-num.tex',
-%%
-%% Copyright 2009 Elsevier Ltd
-%%
-%% This file is part of the 'Elsarticle Bundle'.
-%% ---------------------------------------------
-%%
-%% It may be distributed under the conditions of the LaTeX Project Public
-%% License, either version 1.2 of this license or (at your option) any
-%% later version.  The latest version of this license is in
-%%    http://www.latex-project.org/lppl.txt
-%% and version 1.2 or later is part of all distributions of LaTeX
-%% version 1999/12/01 or later.
-%%
-%% The list of all files belonging to the 'Elsarticle Bundle' is
-%% given in the file `manifest.txt'.
-%%
-%% Template article for Elsevier's document class `elsarticle'
-%% with numbered style bibliographic references
-%%
-%% $Id: elsarticle-template-1-num.tex 149 2009-10-08 05:01:15Z rishi $
-%% $URL: http://lenova.river-valley.com/svn/elsbst/trunk/elsarticle-template-1-num.tex $
-%%
+# Title: Network Trait marker for working memory deficit in Schizophrenia: a multi-site study
 
-\documentclass[preprint,authoryear,review,12pt,times]{elsarticle}
-\usepackage{geometry}
-\geometry{left=2.54cm,right=2.54cm,top=2.54cm,bottom=2.54cm}
-%\documentclass[final,5p,times,twocolumn]{elsarticle}
+----------
 
-%% Use the option review to obtain double line spacing
-%% \documentclass[preprint,review,12pt]{elsarticle}
-
-%% Use the options 1p,two column; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
-%% for a journal layout:
-%% \documentclass[final,1p,times]{elsarticle}
-%% \documentclass[final,1p,times,twocolumn]{elsarticle}
-%% \documentclass[final,3p,times]{elsarticle}
-%% \documentclass[final,3p,times,twocolumn]{elsarticle}
-%% \documentclass[final,5p,times]{elsarticle}
-%% \documentclass[final,5p,times,twocolumn]{elsarticle}
-
-
-\usepackage{color}
-\usepackage{multirow,booktabs,ctable,array}
-\usepackage{lscape}
-\usepackage{amsmath}
-\usepackage{lineno}
-\usepackage{ulem}
-\usepackage{setspace}
-\usepackage{listings}
-\usepackage{float}
-\usepackage{url}
-
-
-\floatstyle{plain}
-\newfloat{command}{thp}{lop}
-\floatname{command}{Command}
-
-%\usepackage[nomarkers,notablist]{endfloat}
-
-%% if you use PostScript figures in your article
-%% use the graphics package for simple commands
-%% \usepackage{graphics}
-%% or use the graphicx package for more complicated commands
-%% \usepackage{graphicx}
-%% or use the epsfig package if you prefer to use the old commands
-%% \usepackage{epsfig}
-
-%% The amssymb package provides various useful mathematical symbols
-\usepackage{amssymb}
-%% The amsthm package provides extended theorem environments
-% \usepackage{amsthm}
- 
- \usepackage{makecell}
-
-%% The lineno packages adds line numbers. Start line numbering with
-%% \begin{linenumbers}, end it with \end{linenumbers}. Or switch it on
-%% for the whole article with \linenumbers after \end{frontmatter}.
-%% \usepackage{lineno}
-
-%% natbib.sty is loaded by default. However, natbib options can be
-%% provided with \biboptions{...} command. Following options are
-%% valid:
-
-%%   round  -  round parentheses are used (default)
-%%   square -  square brackets are used   [option]
-%%   curly  -  curly braces are used      {option}
-%%   angle  -  angle brackets are used    <option>
-%%   semicolon  -  multiple citations separated by semi-colon
-%%   colon  - same as semicolon, an earlier confusion
-%%   comma  -  separated by comma
-%%   numbers-  selects numerical citations
-%%   super  -  numerical citations as superscripts
-%%   sort   -  sorts multiple citations according to order in ref. list
-%%   sort&compress   -  like sort, but also compresses numerical citations
-%%   compress - compresses without sorting
-%%
-%% \biboptions{comma,round}
-
-% \biboptions{}
-
-\providecommand{\OO}[1]{\operatorname{O}\bigl(#1\bigr)}
-
-\graphicspath{{./Figures/}
-                          }
-
-\long\def\symbolfootnote[#1]#2{\begingroup%
-\def\thefootnote{\fnsymbol{footnote}}\footnote[#1]{#2}\endgroup}
-
-    \usepackage{color}
-
-    \definecolor{listcomment}{rgb}{0.0,0.5,0.0}
-    \definecolor{listkeyword}{rgb}{0.0,0.0,0.5}
-    \definecolor{listnumbers}{gray}{0.65}
-    \definecolor{listlightgray}{gray}{0.955}
-    \definecolor{listwhite}{gray}{1.0}
-
-\newcommand{\lstsetcpp}
-{
-\lstset{frame = tb,
-        framerule = 0.25pt,
-        float,
-        fontadjust,
-        backgroundcolor={\color{listlightgray}},
-        basicstyle = {\ttfamily\scriptsize},
-        keywordstyle = {\ttfamily\color{listkeyword}\textbf},
-        identifierstyle = {\ttfamily},
-        commentstyle = {\ttfamily\color{listcomment}\textit},
-        stringstyle = {\ttfamily},
-        showstringspaces = false,
-        showtabs = false,
-        numbers = none,
-        numbersep = 6pt,
-        numberstyle={\ttfamily\color{listnumbers}},
-        tabsize = 2,
-        language=[ANSI]C++,
-        floatplacement=!h,
-        caption={},
-        captionpos=b,
-        }
-}
-
-
-\journal{Neuroimage}
-\linespread{2}
-\begin{document}
-
-
-\begin{frontmatter}
-
-\title{Network Trait marker for working memory deficit in Schizophrenia: a multi site study
-}
-
-
-
-%\author[label1]{Nicholas J.~Tustison\fnref{label0}}
-%%  \ead{ntustison@virginia.edu}
-%  \fntext[label0]{\scriptsize Corresponding author:  PO Box 801339, Charlottesville, VA 22908; T:  434-924-7730; email address:  ntustison@virginia.edu }
-%\author[label2]{Brian B.~Avants}
-%\author[label2]{Philip A.~Cook}
-%\author[label3]{Junghoon Kim}
-%\author[label3]{John Whyte}
-%\author[label2]{James C.~Gee}
-%\author[label1]{James R.~Stone}
-%
-%\address[label1]{Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA}
-%\address[label2]{Penn Image Computing and Science Laboratory, University of Pennsylvania,
-%                Philadelphia, PA}
-%\address[label3]{Moss Rehabilitation Research Institute, Albert Einstein Healthcare Network, Philadelphia, PA}
-
-
-
-%\maketitle
-
-%\linenumbers
-
-
-\begin{abstract} 
+## Abstract
 Working memory impairment is documented as a core symptom/syndrome and related to cognitive deficits in schizophrenia. Understanding the pathology is very important to diagnosis and treatment of schizophrenia. While the working memory system is regarded as a complex system/process including both a central/core modality independent component and some slave modality specific storage buffer. The core regions mainly comprised the frontal-parietal areas are known to be responsible for some higher-level procedures in working memory and have been evident to be impaired when the patients performing a working memory task. In this study, we attempt to find whether functional connectivity within the core working memory network is impaired at resting state. By recruiting a large scale multi-site resting-state fmri datasets, we found that working memory deficits can be characterized by reduced functional connectivity among the caudal LPFC, left IFG, left AI and right IPS. Association analysis of the impaired functional connectivity and clinical scores reveal no significant effect. Our findings indicate that the impaired resting-state functional connectivity within frontal-parietal core working memory network may act as a proxy of impaired top-down control in the working memory procedure, and thus lead to cognitive deficits in schizophrenia. These reduced patterns provide stable trait marker for the disease and will help us to approach treatment.    
-\end{abstract}
-
-\begin{keyword}
-%% keywords here, in the form: keyword \sep keyword
-\end{keyword}
-
-\end{frontmatter}
-%
-%
-\newpage
 
 
-%% MSC codes here, in the form: \MSC code \sep code
-%% or \MSC[2008] code \sep code (2000 is the default)
 
-%%
-%% Start line numbering here if you want
-%%
-\pagewiselinenumbers
-\linenumbers
-
-%% main text
-
-\section*{Introduction}
-%State the objectives of the work and provide an adequate background, avoiding a detailed literature survey or a summary of the results.
+## Introduction
 
 Working memory is typically/ conventionally defined as the ability to maintain and manipulate information over short periods. WM has been shown to be impaired in many neurological and psychiatric syndromes including Schizophrenia. It was considered tightly associated with cognitive deficits in Schizophrenia (Green 2000). Examination of the underlying neurological mechanism provided us with insight into the causes, progression, and even treatment of schizophrenia. A large body of work incorporating neuroimaging tools such as functional MRI has demonstrated that such patients have neurophysiological abnormity compared with the normal (Goldman-Rakic, 1991; Park and Holzman, 1992). Most of these studies focus on task related abnormal activation or connectivity when patients perform a working memory task. However, the results based on task-based studies may be confusion due to several reasons. First, WM is a complex system combines encoding and maintaining of modality-specific short-term memory and central executive component to manipulate the information. A working memory task may incorporates several different procedures including maintenance, updating, retrieve etc. Some studies have found both impairments in the modality-specific perception component and the later manipulation component. There has been evidence of multi-modality deficits: visual spatial, visual object, verbal, and other types of working memory. Hardly can these results tell us whether there exist some fundamentally impairment in the working memory system. Second, evidence showed that activation or functional connectivity are modulated by task configuration such as task load, stimulus type etc. Results in these previous studies have been equivocal, and replication of experiment is needed. Another concern is that working memory may be  multidimensionally related to the psychosis (D’Esposito, 2015). Due to the heterogeneous configurations of tasks and the small sample sizes of the most imaging studies. Thus, previous findings of impairment during working memory task may be stage or modality dependent thus is varied under different task configuration rather than stable trait biomarker across all task states. 
 
@@ -211,64 +17,7 @@ There has been abundant imaging studies on WM deficits in Schizophrenia, but the
 
 Schizophrenia has often been conceived as a disorder of connectivity between components of large-scale brain networks (Lynall, 2010). A growing number of studies have reported altered functional connectivity in schizophrenia during putatively “task-free” states and during the performance of cognitive tasks. (Grega Repovs 2012) A few studies have focused on the relationship between WM impairment and disturbed functional connectivity both in the resting state and under various task. The connectivity could be modulated by the task demands. Some imagining studies reporting altered patterns of interregional functional connectivity in patients with schizophrenia during working memory task performance (Meyer-Lindenberg et al., 2001; Quintana et al., 2003; Schlosser et al., 2003a; Whalley et al., 2005). However, seldom studies have investigate the functional connectivity in resting state. Connectivity within the DMN and FP has been found significantly different between? resting state and 0-back, and was further modulated by memory load. (Grega Repovs 2012) Yet most of the existing find are during working memory tasks, we are still eager to find whether we could detect functional connectivity impairments in resting state, which may be a potential trait marker of WM impairment in schizophrenia patients.
 
-\section*{Materials and Methods}
-
-\subsection*{Subjects}
-
-The resting state fMRI data presented here was collected from six hospitals in China which participated in the Brainnetome Project for Schizophrenia. The six hospitals are Peking University Sixth Hospital (PKUH6); Beijing Huilongguan Hospital (HLG); Xijing Hospital (XJ); Henan Mental Hospital (HM);  Renmin Hospital of Wuhan University (RWU); and Zhumadian Psychiatric Hospital (ZMD). Henan Mental Hospital provided two distinct MRI scanners: Siemens (HMS) and General Electric (HMG), for a total of eight scanning centers. Patients and controls are matched as much as possible for age, sex, handedness, and race distributions within each site. The study at each center was approved by the local ethical review board. All the participants provided written informed consent.
-
-All patients had a diagnosis of schizophrenia confirmed by trained psychiatrists using the Structured Clinical Interview for DSM-IV-TR Axis I Disorders (SCID-I/P). (First et al., 2002b). Exclusion criteria were a current neurologic disorder, a history of serious medical illness, substance dependence, pregnancy, electroconvulsive therapy within the last six months, or a diagnosis of any other Axis I disorder. The Positive and Negative Syndrome Scale (PANSS)  (Kay et al., 1989) was used to assess positive, negative, and general psychopathology symptoms in the patients. The healthy controls, who had no current axis I psychiatric disorders, were recruited from the local community near each center through advertisements. None of the HCs had any personal history of psychotic illness and no family history of psychosis in their first, second, or third degree relatives. All the participants were Han Chinese in origin, right-handed, and had no contraindications to MRI scanning. After extensive quality checking of the brain imaging data, 662 patients and 613 HCs were included in the analysis.
- 
- 
- 
-\subsection*{Data acquisition and preprocessing}
- 
- 
-Two types of 3T MRI scanners (four Siemens, three General Electric) were used at the participating centers (details in table \#). To ensure equivalent data acquisition protocol and high quality imaging data, the scanning parameters of the functional scans at each of the six centers were set up by an experienced researcher before data acquisition. An echo planar imaging sequence was used to obtain the functional images, the parameters were as follows: 30 axial slices, TR = 2000 ms, TE = 30 ms, matrix = 64 × 64, flip angle = $90^{\circ}$, FOV = $240*240 mm^{2}$, slice thickness = 4 mm, gap = 0.4 mm. A total of 250 brain volumes were collected, resulting in a total scan time of 500s. The MRI scan sequences and parameters for each center are listed in eTable 1. To be noticed, the time point number of the images from ZMD is 180 and is different from the 240 of the other sites. We did not exclude this site since we are eager to keep as much data and sites as possible, to support the validation of the multi-site analysis. The multi-site statisical stratergy we used is robust to various of volum numbers in different sites.    
-
-%时间校正，头动校正，配准，降噪，滤波，空间平滑
-
-The iamges were preprocessed with a based in-house software: Brainnetome Toolkit which utilized Statistical Parametric Mapping SPM8 (\url{http://www.fil.ion.ucl.ac.uk/spm}). The pipeline includes the following steps: The first ten images were deleted for the signal equilibration. The remaining iamges were conducted for slice acquisition correction and head motion correction.  The fMRI data which had
-less than 3.0mm of head motion and $3.0^{\circ}$ of angular rotation were included.  Moreover, the mean frame-wise displacement (FD) was computed by averaging \(FD_{i}\) from every time point for each subject. There were no differences for the mean FD between groups ( t = 0.413, p = 0.682) (Table 1). Then the fMRI images were normalized to the standard Montreal Neurological Institute (MNI) template provided by SPM and resample to the 3-mm isotropic voxels. Artefacts due to changes in global, ventricle and white matter signals, residual motion were removed using voxel-wise regression. A temporal filter (0.01 Hz \textless f \textless 0.08 Hz) were used to reduce the low-frequency drift and physiological high frequency respiratory and cardiac noise. Finally, the data was smoothed with an isotropic Gaussian kernel of 6 mm full-width at half-maximum. 
-
-Functional connectivity analysis
-
-Regions of interest (ROIs)
-
-The ROIs in this study were extracted from a previous meta analysis by Simon, in which they find regions that commonly acvite during various working memory tasks. A consistent and restricted ``core'' network emerged from conjunctions across analyses of specific task designs and contrasts: task effects for n-back and Sternberg tasks, verbal and non-verbal tasks, load effects and all three task components (encoding, maintenance, recall). These regions includs dosal area 44 , anterior insula, (pre-) SMA, and IPS, bilaterally. The peak coordinates are listed in table \#. A 5mm radis sphrere ROIs are created form these peak coordinates in MNI standard space.
-
-\subsection*{fcMRI Analyses}
-
-To perform the fcMRI analyses, time series from the resting-state scan were extracted by averaging the time series of all voxels in each ROI. The resulting time series of each ROI were then entered into the following connectivity analyses. The Pearson (full) correlation coefficient was used to estimate functional connectivity between each pair of time series. A Fisher Z transform was applied to transform from pearson r to z scores.
-
-\subsection*{Statistical analysis}
-
-Group differences in the basic demographics at each center were examined with two-tailed t-tests and chi-square tests using PASW Statistics 18.0.
-
-For every single site separately, the diagnose effect on each FC value was assessed using a two-sample t-test comparing images between SZ and NC from each site. A second level random effects meta analysis was used to pooling the single site statistics, in order to assess the replication of the effects from the entire dataset. The effect sizes were calculated using Hedge's g, which provides an unbiased standardized mean difference that incorporates a correction for small sample sizes. Hedge's g was calculated using each center's t-statistic and the corresponding sample size. All significance thresholds were set to p \textless 0.001 FDR-corrected for multiple comparison. The meta-analysis was conducted in R with meta-for packages.
-
-We then performed association analysis for those fc connectivities that passed the significant test. We then examined the relationship between FC values of those that passed the significant test and demographic variables in patients.  Linear regression was then conducted to determine a possible association between those significantly FC connectivity and clinical scores including (PANSS positive , PANSS negative, PANSS general and PANSS total). These analyses are conducted both separately in each site and in the whole data. In whole data analysis, the site factor was included in the GLM model. An additional analyses were also performed with covariate of age and sex.
-
-\section*{Results}
-
-Demographics and clinical data
-
-Sociodemographic and psychopathological data are presented by center in Table 1. No statistically significant differences in age and sex were noted between the schizophrenia patients and HCs at each center. The patients had significantly fewer years of education than the HCs in six out of eight centers.
-
-Group comparisons of FC connectivities at each center
-
-Mixed effect multicenter analysis
-
-Compared to the normal group, four FC conncevities was reduced in the patients: they are the connection between the left IFG/caudal lateral prefrontal gyrus and the left anterior insula, Left IFG/caudal lateral prefrontal gyrus and the Left inferior frontal gyrus pars opercularis, Right intraparietal sulcus and the Left inferior frontal gyrus pars opercularis, Right intraparietal sulcus and the Right inferior frontal gyrus pars opercularis. No functional connectivity was detected with a enhanced effect in the patients group.  
-
-
-Association analysis
-
-We did not find any association between the FC and the clinical scores.
-\section*{Discussion} 
-
-
-
+## Discussion
 
 Our results showed reduced resting-state functional connectivity from the caudal LPFC to the left AI and left IFG, pars opercularis. The LPFC is confirmed to be a core region responsible for higher-level representation or manipulation in working memory processes (D’Esposito, 2015). Meta-analysis finds evidence for the consistent activation of caudal LPFC across different putative executive functions (Nee, 2013). It also showed a working memory load-dependent effect in (Rosttchy, 2012), whereas the rostral LPFC was not. This may indicate that the caudal LPFC was directly involved in manipulating the working memory storage. Another study (Barbalat, 2011) observed impaired control from the left rostral LPFC to caudal LPFC in schizophrenia. Earlier study showed the activation in caudal LPFC regions negatively correlated with the disorganization syndrome score of patients (Barbalat, 2009). Although these findings are under the context of cognition control, there might be similar effect in working memory because LPFC belong to a common network subserving a wide domain of cognitive tasks including working memory (Duncan, 2000). Our resting state results support that there might be dysfunction in the caudal LPFC, which may indicate functional impairment when processing working memory items. The impairment may propagate down to the other frontal areas in a hierarchical working memory network, as we found a reduced connectivity to the left AI and left IFG. These are two important regions in working memory. The inferior frontal gyrus/anterior insula (IFG/AI) was suggested to be involved in elaborate attentional and working memory processing (Mattie Tops, 2011). Some evidence has suggested the IFG/AI might involve in cognitive control in working memory tasks. These ventral cortico-limbic control pathways that include the IFG/AI, may adapt to working memory context that differ in the level of predictability. Meta-analysis has find consistent activation in bilateral mid-ventrolateral prefrontal cortex (BA45, 47) within different N-back tasks which suggested a modality and task dependent involvement in working memory (Owen, 2005). The inhibitory processes appear to be mediated by area 45 (left lateral prefrontal structures) (Jonides, 1998) in working memory tasks. For example, Owen, Petrides and their colleagues [6,7] proposed that the mid-ventrolateral region (Brodmann’s area [BA] 45/47) supports the organization of response sequences based on information  retrieved  from  posterior  areas,  whereas  the mid-dorsolateral  region  (BA 9/46) supports the active manipulation or monitoring of information within working memory (Patricia A Carpenter, 2000). Another within subject study find the left and right IFG showed a conjunction between working memory and inhibition tasks within subjects, which indicate some component of executive function may interactive with the working memory system in working memory tasks (MacNab, 2008). Moreover, there is evidence of structure abnormality of these areas in schizophrenia patients. For example, the anterior insula is closely associated with working memory processes in healthy participants and shows gray matter reduction in schizophrenia (Clos, 2014). Cortical thinning in inferior frontal and insular is related to dysfunctional brain activation/deactivation during working memory task in schizophrenic patients (Nuria Pujol, 2013). Another review gives attention to the role of AI in switching between other large-scale networks to facilitate access to attention and working memory resources when a salient event is detected (Vinod Menon, 2010). The right IFG has been suggested to perform a general-purpose inhibitory function, and is related to inhibition of irrelevant memory from entering WM (Anderson et al. 2004; Anderson and Levy 2009, Nee, 2013). (Johan Eriksson, 2015) reviewed that attention is understood to be a cornerstone of working-memory processed. When the perceptual input no longer is present, sustained attention along with a rehearsal process is crucial for maintaining the information in working memory. Individual differences in working memory capacity are also showed to be determined primarily by variability ability in attentional control deployment. In line with these existing findings, we suspect that the schizophrenia patients may lack the attention, the inhibition control ability to maintain, and manipulating the working memory items while not disturbed by unrelated staff. (加一下静息态预测任务的研究)
 
@@ -276,27 +25,31 @@ Apart from caudal LPFC, we also found connectivity reduction in the parietal lob
 
 Although there have been mounting evidence of altered LPFC connectivity with inferior parietal cortex, we did not detect a significant effect between the left caudal ROI and the IPS. 
 
-\subsection*{The frontal-parietal working memory core networks}
+The frontal-parietal working memory core networks
 
-The complex pattern of hyper-activation and hypo-activation found across studies implies that researchers should consider the entire network of regions involved in a given task when making inferences about the biological mechanisms of schizophrenia (David C. Glahn, 2005). The organization of human WM has long been the topic of psychological models (Atkinson and Shiffrin, 1968; Hebb, 1949), with maybe the most influential having been proposed by Baddeley and Hitch (1974). According to Baddeley and Hitch’s model, the working memory system can be coarsely divided into a central executive module and some peripheral modality specific components. Working memory is the result of various combinations of processes; no processes (and correspondingly no brain structures) are unique or specific to working memory (Eriksson, 2015). Many brain regions interact during working memory, including "executive" regions in the PFC, parietal cortex, and basal ganglia, as well as regions specialized for processing the particular representations to be maintained, such as the fusiform face area for maintaining face information. Persistent neural activity in various brain regions accompanies working memory and is functionally necessary for maintenance and integration of information in working memory. Although there are different types of material modality, working memory task or contrast, large amount of previous related studies consistently find abnormality in the frontal-parietal network in patients. This network is well recognized as a core for higher order cognition such as working memory and executive control (Duncan and Owen, 2000, Owen, 2005). We restrict our study within a core working memory network which was identified in a meta-analysis research, mainly comprise the frontal-parietal areas, in order to eliminate the bias of different material modality, different processes during the tasks. The reason for such design is that we are interested in the fundamental and underlying causes of WM deficits of the patients. Our findings of the impaired functional connectivity are mainly located in a generic frontal-parietal network including the caudal LPFC, the left AI, the left IFG, and the right IPS. Previous studies of SZ patients when they perform WM tasks provide some evidence for impairment in such a core network. A PET study has found impaired interaction between right lateral prefrontal cortex and bilateral inferior parietal region in SZ patients compared with normal patients during working memory processing (Jae-Jin Kim, 2003). A study confirmed decreased connectivity between R\_IPL and R\_VLPFC, which connection was associated with the task score/performance in visuospatial n-back task (Yann Quide, 2013). Hao-Yang Tan, 2006 find a compensation role of ventral prefrontal areas to the dorsal prefrontal areas with the increase of working memory load in the high-and low-performing patient groups. They also find relatively greater connectivity between ventral prefrontal cortex and PPC in patients while comparison subjects had greater functional connectivity between the dorsal prefrontal cortex and posterior parietal cortex. (怎么说核心网络？) There are some evidence about the structure deficits in IFG and insular in relation to dysfunctional brain activation/deactivation during working memory task in schizophrenia patients (Nuria Pujol, 2013). Recently, a coordinate based meta anlysis confirmed that MFG(BA9), rIFG(BA44) showed decrease in neural activation of schizophrenia unaffected relatives while right frontopolar (BA10), and left IPL(BA40) and bilaterally thalamus showed increased activation , both during working memory tasks(Zhang R, 2016).
+The complex pattern of hyper-activation and hypo-activation found across studies implies that researchers should consider the entire network of regions involved in a given task when making inferences about the biological mechanisms of schizophrenia (David C. Glahn, 2005). The organization of human WM has long been the topic of psychological models (Atkinson and Shiffrin, 1968; Hebb, 1949), with maybe the most influential having been proposed by Baddeley and Hitch (1974). According to Baddeley and Hitch’s model, the working memory system can be coarsely divided into a central executive module and some peripheral modality specific components. Working memory is the result of various combinations of processes; no processes (and correspondingly no brain structures) are unique or specific to working memory (Eriksson, 2015). Many brain regions interact during working memory, including "executive" regions in the PFC, parietal cortex, and basal ganglia, as well as regions specialized for processing the particular representations to be maintained, such as the fusiform face area for maintaining face information. Persistent neural activity in various brain regions accompanies working memory and is functionally necessary for maintenance and integration of information in working memory. Although there are different types of material modality, working memory task or contrast, large amount of previous related studies consistently find abnormality in the frontal-parietal network in patients. This network is well recognized as a core for higher order cognition such as working memory and executive control (Duncan and Owen, 2000, Owen, 2005). We restrict our study within a core working memory network which was identified in a meta-analysis research, mainly comprise the frontal-parietal areas, in order to eliminate the bias of different material modality, different processes during the tasks. The reason for such design is that we are interested in the fundamental and underlying causes of WM deficits of the patients. Our findings of the impaired functional connectivity are mainly located in a generic frontal-parietal network including the caudal LPFC, the left AI, the left IFG, and the right IPS. Previous studies of SZ patients when they perform WM tasks provide some evidence for impairment in such a core network. A PET study has found impaired interaction between right lateral prefrontal cortex and bilateral inferior parietal region in SZ patients compared with normal patients during working memory processing (Jae-Jin Kim, 2003). A study confirmed decreased connectivity between R_IPL and R_VLPFC, which connection was associated with the task score/performance in visuospatial n-back task (Yann Quide, 2013). Hao-Yang Tan, 2006 find a compensation role of ventral prefrontal areas to the dorsal prefrontal areas with the increase of working memory load in the high-and low-performing patient groups. They also find relatively greater connectivity between ventral prefrontal cortex and PPC in patients while comparison subjects had greater functional connectivity between the dorsal prefrontal cortex and posterior parietal cortex. (怎么说核心网络？) There are some evidence about the structure deficits in IFG and insular in relation to dysfunctional brain activation/deactivation during working memory task in schizophrenia patients (Nuria Pujol, 2013). Recently, a coordinate based meta anlysis confirmed that MFG(BA9), rIFG(BA44) showed decrease in neural activation of schizophrenia unaffected relatives while right frontopolar (BA10), and left IPL(BA40) and bilaterally thalamus showed increased activation , both during working memory tasks(Zhang R, 2016).
 
 In Rottschy, 2012, the WM network was identified by functional neuroimaging using quantitative coordinate-based meta-analysis over almost 200 individual experiments. By pooling various working memory tasks, a main network was identified which mainly comprise the fronto-parietal network. By eliminating the effect of specific task designs and contrasts, a more restricted "core" network emerged from conjunctions analyses. A core network independently of the specific aspects and task features was identified using conjunction analysis. This network mainly comprise the dorsal area 44, anterior insula, (pre-)SMA and IPS. The dorsal areas 44/45 and the pre-SMA are part of the phonological loop, a subsystem that response for verbal working memory material maintenance. There has been evidence that the dorsal region of Broca's area is active only during the first part of the delay period, and is involved in the formation of an articulatory rehearsal program. Generally, the same brain regions dedicated to sensory processing are believed to store sensory information during delay periods and working-memory task performance. A conjunction of verbal vs. non-verbal material in Rottschy's study revealed that the BA44/45 area might also involve in non-verbal WM tasks, that it may not be a modality-specific area in working memory. The reduced functional connectivity may underpin the verbal working memory deficits in schizophrenia. The previous research has established that the PFC is causally involved in normal working memory functioning. However, there is yet no consensus on the details of the functional organization of the PFC. In fact, the lateral PFC clusters in the main network was subdivided to two, that the abstraction level of goals and task rules are suggested to peak in rostral PFC and decrease to the caudal part. The caudal LPFC register a working memory load effect while the rostral part was not. 
 
 
-\subsection*{Working memory impairment in Schizophrenia}
-
+Working memory impairment in Schizophrenia
 
 A large amount of studies focused on working memory in schizophrenia, most of these are by using task fmri. 
 
-\subsection*{Resting state and working memory}
+Resting state and working memory
+
 The ability to predict task performance with resting state data is unproven. A few studies investigate the relationship between resting state signal and task state signal. In (M Hampson,2006), they found performance on the working memory task was positively correlated with the strength of functional connection between the PCC and MFG/vACC, two regions with the Default mode network, both during the working memory and at rest. This study raise the possibility that the individual differences in coupling strength between these two regions at rest predict differences in cognitive abilities important for this working memory task. Another study showed fractional amplitude of low frequency fluctuations (fALFF) at rest is correlated with domain and demand-specific working memory performance (van Dam, W.O, 2015). The other study found that smaller amplitudes of low-frequency BOLD oscillations during rest, measured by fALFF, were significantly associated with poorer cognitive performance, sometimes similarly in both groups and sometimes only in SZ, in regions known to subserve sustained attention and working memory. Taken together, these data suggest that the magnitude of resting-state BOLD oscillations shows promise as a biomarker of cognitive function in health and disease (Fryer SL, 2015). Some other studies provide evidence for a correlation between working memory performance and functional network integration on different levels of network organization (Alavash, 2015).
 
 There have been studies showing structure deficits associated with working memory performance, which indicated that both task impairment and dysconnection in rest might have common bases in structure.
 
-\subsection*{Mega analyses}
+Multi-site analysis
 As we considered, the scanner, imaging protocol, and clinical measures may bias a single site imaging study. To overcome these drawbacks, we acquired high quality fMRI data with common protocol across different sites from unique samples of schizophrenia patients with the same ethnic origin, as a potentially representative participant sample. The subjects are also recruited by the same criteria and the clinical scores are assessed by the standards. Despite these control measures, the data and the statistical results may be influenced by the differences in psychopathology, exposure to antipsychotic medication and the scanners used for image acquisitions across patients from different sites scanner type and some other potential effects. In order to assess the replication of the effects from the entire dataset within smaller subsets, Meta-analysis is used here to pooling results from single site and to increase the statistical power (J A. Turner, 2013, S G, Costafreda, 2009). To model/capture the heterogeneous induced by the different subjective recruitment strategies, cognitive paradigms, acquisition software and hardware, and the individual variance in coregistering to the template, we treat site factor as a random effect. By applying such multi-site experiment design and pooling strategy, we were able to, first, reduce the possibility of biased results in a single site and provide a reliable and generalized results; second, extract novel insights from existing large-scale datasets by increasing the statistical power; third, the sample we collected is a represented right-handed Han Chinese population which was collected from hospitals distributed across China. Despite the differences in scanner type and the potential bias of subjects across sites, these may also benefit that the variation may be covered by the large sample size, the results may be generalize over sites and are more liked to be substantial.  
 
-\subsection*{Limitations}
+
+
+Limitations
+
+
 The present findings must be considered with respect to several limitations. 
 1 working memory 的复杂性，是否能单用core来衡量
 
@@ -305,64 +58,5 @@ Some researchers suspect that working memory is a distributed system rather than
 2. We did not find any association between these impaired functional connectivity with PANSS scores (PANSS total, PANSS general, PANSS negative and PANSS positive). One reason is that schizophrenia is a multi-dimensional disease and these scores does not reflect one spectral of impairment like working memory but is a combination of different deficits. Another reason is that the association is too weak to detect. 
 
 As pointed in (Duncan 2000), the frontal-parietal networks are comprised of core regions, which may involve in multiple cognitive procedures. Because we did not detect the direct association of imaging finding to behavior, we are not sure whether these impairments are also related to other behavior domain.       
-
-\section*{Conclusions}
+Conclusion
 In conclusion, our investigation provides evidence for working memory resting-state function network impairment in schizophrenia, mainly involving the functional connectivity in the frontal-parietal network. Our findings are draw from a large-scale multi-site study with subjects collected from seven hospitals in China which lead to powerful and reliable conclusion that the working memory deficits are mainly ascribed to the dysfunction of high-level nodes comprises the “core” working memory network. The results may informed us the causes of this disease and facilitating future study on the pathology and treatment of this disease. 
-%% The Appendices part is started with the command \appendix;
-%% appendix sections are then done as normal sections
-%% \appendix
-
-%% \section{}
-%% \label{}
-
-%% References
-%%
-%% Following citation commands can be used in the body text:
-%% Usage of \cite is as follows:
-%%   \citep{key}          ==>>  [#]
-%%   \cite[chap. 2]{key} ==>>  [#, chap. 2]
-%%   \citet{key}         ==>>  Author [#]
-
-%% References with bibTeX database:
-
-\section*{Acknowledgments}
-%All visualizations were performed using ITK-SNAP%
-%\footnote{
-%http://www.itksnap.org/
-%}
-%\citep{Yushkevich2006} and
-%DTI-TK.%
-%\footnote{
-%http://www.nitrc.org/projects/dtitk/
-%}
-%We also gratefully acknowledge Dr. Niels van Strien of the Norwegian University of Science and Technology
-%who assisted in packaging the template construction algorithm in the very useful script \verb#buildtemplateparallel.sh#
-%which is publicly available in ANTs.
-
-\section*{References}
-
-\bibliographystyle{elsarticle-harv}
-\bibliography{references}
-
-
-%% Authors are advised to submit their bibtex database files. They are
-%% requested to list a bibtex style file in the manuscript if they do
-%% not want to use model1-num-names.bst.
-
-%% References without bibTeX database:
-
-% \begin{thebibliography}{00}
-
-%% \bibitem must have the following form:
-%%   \bibitem{key}...
-%%
-
-% \bibitem{}
-
-% \end{thebibliography}
-
-
-\end{document}
-
-%%
-%% End of file `elsarticle-template-1-num.tex'.
